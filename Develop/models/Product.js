@@ -24,17 +24,24 @@ Product.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
       // Validates that the value is decimal
+      isDecimal: true,
     },
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
       // set a default value of 10
+      defaultValue: 10,
       // Validates that the value is numeric
+      isNumeric: true,
     },
     category_id: {
       type: DataTypes.INTEGER,
       // References the Category model's id
-    }
+      references: {
+        model: 'category',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
