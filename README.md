@@ -2,7 +2,7 @@
 
 ## The Task
 
-The task is to build a back end for an e-commerce site by modifying starter code. Configure a working Express.js API to use Sequelize to interact with a MySQL database.
+The task is to build a back end for an e-commerce site. Configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
 Provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met.
 
